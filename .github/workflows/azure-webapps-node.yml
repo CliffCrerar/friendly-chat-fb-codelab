@@ -19,22 +19,13 @@
 
 on:
   push:
-    branches: [ "main" ]
-
-env:
-  NODE_VERSION: '18.x'                # set this to the node version to use
+    branches: [ "main" ]            # set this to the node version to use
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ env.NODE_VERSION }}
-        cache: 'npm'
         
     - name: Install Firebase Tools
       run: npm install -g firebase-tools
