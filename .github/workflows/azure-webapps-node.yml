@@ -35,6 +35,6 @@ jobs:
         cd web-start
         npm install
         npm run build
-        fireabse deploy --token {{ secrets.FIRE_BASE_TOKEN }}
+        firebase deploy --token {{ secrets.FIRE_BASE_TOKEN }}
         
 
