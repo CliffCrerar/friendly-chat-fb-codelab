@@ -8,6 +8,13 @@
  */
 const config = {
   /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+  apiKey: "AIzaSyBnvIwr2uMC9cyN9BiyQ6H315FkZ1bKtg4",
+  authDomain: "friendly-b5abc.firebaseapp.com",
+  projectId: "friendly-b5abc",
+  storageBucket: "friendly-b5abc.appspot.com",
+  messagingSenderId: "827359804860",
+  appId: "1:827359804860:web:71c074a0bc16164320ffb9",
+  measurementId: "G-0GQ6TWW3ZM"
 };
 
 export function getFirebaseConfig() {

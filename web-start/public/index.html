@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Learn how to use the Firebase platform on the Web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friendly Chat</title>
+  <title>Fire Base Chat App Demo</title>
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -80,6 +80,11 @@
 
       <!-- Messages container -->
       <div id="messages-card" class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--6-col-desktop">
+        <div style="display: flex;justify-content: space-between; align-items: center; padding:3px 10px">
+          <h6 style="padding: 0;margin: 0">Messages</h6>
+          <button class="mdl-button mdl-js-button mdl-button--raised">Enable Notifications</button>
+        </div>
+        <hr>
         <div class="mdl-card__supporting-text mdl-color-text--grey-600">
           <div id="messages">
           </div>
@@ -100,6 +105,7 @@
           </form>
         </div>
       </div>
+
 
       <div id="must-signin-snackbar" class="mdl-js-snackbar mdl-snackbar">
         <div class="mdl-snackbar__text"></div>
